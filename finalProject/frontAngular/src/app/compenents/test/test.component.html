@@ -1,0 +1,39 @@
+<div *ngIf="flag ; then test else data">
+</div>
+
+<ng-template #data>
+<h1> Angular</h1>
+</ng-template> 
+
+<ng-template #test>
+    <h1>Typescript</h1>
+</ng-template> 
+
+<!-- <div [ngSwitch]="num" >
+    <ng-container *ngFor="let n of numArr">
+    <div *ngSwitchCase="n.key">{{n.value}}</div>
+     </ng-container>
+    <div *ngSwitchCase="'1'">one</div>
+    <div *ngSwitchCase="'2'">one</div>
+    <div *ngSwitchCase="'3'">one</div>
+    <div *ngSwitchCase="'4'">one</div>
+    <div *ngSwitchDefault>default</div>
+</div> -->
+
+
+
+<!-- <div [ngSwitch]="month">
+    <ng-container *ngFor="let m of monthArr">
+     <div *ngSwitchCase="m.key">{{m.value}}</div>
+    </ng-container>
+    <div *ngSwitchDefault>default</div>
+</div> -->
+<!-- <div [ngSwitch]="num">
+    <ng-container *ngFor="let m of months; let i = index">
+     <div *ngSwitchCase="i">{{m}}</div>
+    </ng-container>
+    <div *ngSwitchDefault>default</div>
+</div> -->
+
+
+
